@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", serif;
+
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  
+  #show_img img {
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    width: 100%; /* Ensure the image fills its parent div */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  #show_img {
+    gap: 0.5rem; /* Use a smaller gap between columns */
+  }
+  
